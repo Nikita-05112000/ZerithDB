@@ -21,16 +21,16 @@ export default function BlogPage() {
             <span className="font-semibold text-xl tracking-tight text-gray-900">ZerithDB</span>
           </Link>
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
-            <Link href="/docs" className="hover:text-black transition-colors font-medium">
+            <Link href="/docs" className="text-white hover:text-gray-300 transition-colors font-medium">
               Docs
             </Link>
-            <Link href="/#features" className="hover:text-black transition-colors">
+            <Link href="/#features" className="text-white hover:text-gray-300 transition-colors">
               Features
             </Link>
-            <Link href="/#how-it-works" className="hover:text-black transition-colors">
+            <Link href="/#how-it-works" className="text-white hover:text-gray-300 transition-colors">
               How it works
             </Link>
-            <Link href="/#compare" className="hover:text-black transition-colors">
+            <Link href="/#compare" className="text-white hover:text-gray-300 transition-colors">
               Compare
             </Link>
             <Link
